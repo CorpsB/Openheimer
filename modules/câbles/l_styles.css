@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    border: 1px solid #000;
+  }
+  
+  #line {
+    position: absolute;
+    border: 2px solid blue;
+    z-index: -1;
+  }
+
+  #pointA {
+    top: 30px;
+    left: 10px;
+  }
+  
+  #pointB {
+    top: 280px;
+    left: 480px; /* Décalage horizontal par rapport à point A */
+  }
+
+  .point.left {
+    /* Positionnez les points à gauche */
+    top: calc(10% + var(--offset) * (2 - 1)); /* Ajustez selon vos besoins */
+    left: calc(10% - 5px); /* Ajustez selon vos besoins */
+  }
+  
+  
+  .point.right {
+    /* Positionnez les points à droite */
+    top: calc(10% + var(--offset) * (2 - 1)); /* Ajustez selon vos besoins */
+    left: calc(90% - 5px); /* Ajustez selon vos besoins */
+  }
+  
+  .point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
