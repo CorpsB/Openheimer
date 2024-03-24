@@ -14,11 +14,3 @@ read -p "Appuyez sur Entrée pour arrêter le serveur..."
 
 # Arrêter le serveur PHP
 kill $PHP_SERVER_PID > /dev/null 2>&1
-
-# Fermer l'onglet du navigateur
-pkill -f 'firefox.*localhost:4000'
-# Cette commande peut varier selon le navigateur
-# Par exemple, pour Firefox, vous pouvez utiliser :
-# pkill firefox
-# Pour Chrome, vous pouvez utiliser :
-# pkill chrome

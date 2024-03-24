@@ -15,10 +15,7 @@ $modules = array(
     // "C" => ""
 );
 
-$seed = "124683";
-
-$var = $_POST["data"];
-var_dump($var);
+$seed = $_GET["id"];
 
 ?>
 <!DOCTYPE html>
@@ -56,7 +53,7 @@ var_dump($var);
         <br>
         <a href="../index.php" id="return_to_home"><i class="fas fa-home"></i></a>
     </div> -->
-    <script src="../js/popup.js"></script>
+    <!-- <script src="../js/popup.js"></script> -->
     <div class="picture_bombe">
         <div class="bombe">
             <div class="one"><?php require_once($modules[substr($seed, 0, 1)]);?></div>
