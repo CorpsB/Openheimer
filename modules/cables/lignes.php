@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../modules/cables/l_styles.css">
 
-<div class="container">
+<div class="module-nb-container">
   <div class="line" id="line"></div>
   <!-- Points à gauche -->
   <div class="point left" id="pointA1"></div>
@@ -17,5 +17,5 @@
 </div>
 
 <script src="../modules/cables/l_script.js"></script>
-  
+
 </html>

@@ -4,16 +4,16 @@
     border: 1px solid #ccc;
     position: relative;
     overflow: hidden;
-  }
-  
-  .progress {
+}
+
+.progress {
     height: 100%;
     background-color: #0062ff;
     width: 0%;
     transition: width 0.5s ease;
-  }
-  
-  .btn {
+}
+
+.t-btn {
     width: 180px;
     height: 180px;
     background-color: #ff7300;
@@ -26,9 +26,9 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     outline: none;
-  }
+}
 
-  .btn-rect {
+.t-btn-rect {
     background-color: #129b00;
     color: white;
     border: none;
@@ -41,8 +41,8 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     outline: none;
-  }
-  
+}
+
 .random-char {
     font-size: 48px;
     font-weight: bold;
@@ -50,5 +50,4 @@
     top: 30%; /* Position verticale au centre */
     left: 50%; /* Position horizontale au centre */
     transform: translate(-50%, -50%); /* Déplacer l'élément de moitié de sa largeur et de sa hauteur pour le centrer */
-  }
-  
+}
