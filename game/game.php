@@ -8,11 +8,17 @@ $modules = array(
     // "5" => "",
     // "6" => "",
     // "7" => "",
-    // "8" => ""
+    // "8" => "",
+    // "9" => "",
+    // "A" => "",
+    // "B" => "",
+    // "C" => ""
 );
 
-$seed = "214683";
+$seed = "124683";
 
+$var = $_POST["data"];
+var_dump($var);
 
 ?>
 <!DOCTYPE html>
@@ -24,6 +30,7 @@ $seed = "214683";
     <script src="../js/game.js"></script>
     <link rel="stylesheet" href="../css/game.css">
     <script src="../js/timer.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <title>Open-heimer</title>
 </head>
 <body>
@@ -38,8 +45,18 @@ $seed = "214683";
             <a href="../index.php" id="return_to_home"><i class="fas fa-home"></i></a>
         </div>
     </div>
-    <!-- <div class="popup win defeate">
+    <!-- <div class="popup active">
+        <div class="win winactive title">
+            <h1>Congratulation</h1>
+        </div>
+        <div class="loose title">
+            <h1>Mission failed</h1>
+        </div>
+        <br>
+        <br>
+        <a href="../index.php" id="return_to_home"><i class="fas fa-home"></i></a>
     </div> -->
+    <script src="../js/popup.js"></script>
     <div class="picture_bombe">
         <div class="bombe">
             <div class="one"><?php require_once($modules[substr($seed, 0, 1)]);?></div>

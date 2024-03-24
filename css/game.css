@@ -80,15 +80,33 @@ h1 {
 }
 
 .picture_bombe {
-    background-image: url('../fond.png');
-    width: 1920px;
+    background-image: url('../jam1.jpg');
+    /* width: 1920px;
     height: 850px;
     background-size: 105% 130%;
-    background-position: center;
+    background-position: center; */
 }
 
-.popup {
+/* .popup {
     width: 200px;
     height: 200px;
-    background-color: blueviolet;
+    background-color: rgb(72, 78, 90);
+    z-index: 1;
+    position: absolute;
+    margin: 5%;
+    padding: 12% 40%;
+    opacity: 90%;
+    display: none;
+} */
+
+/* .active {
+    display: block; !important
 }
+
+.win, .loose {
+    display: none;
+}
+
+.winactive, .looseactive {
+    display: block; !important
+} */
