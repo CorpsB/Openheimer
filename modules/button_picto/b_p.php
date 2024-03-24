@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Old+South+Arabian&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./b_p_style.css">
+    <link rel="stylesheet" href="../modules/button_picto/b_p_style.css">
 </head>
 
 <body>
@@ -17,7 +17,6 @@
         }
         echo '</div>';
     ?>
-    <script src="./b_p_script.js"></script>
+    <script src="../modules/button_picto/b_p_script.js"></script>
 </body>
-
 </html>
