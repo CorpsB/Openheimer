@@ -1,20 +1,19 @@
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Fait en sorte que le body prenne toute la hauteur de la fenêtre du navigateur */
-    width: 100vw; /* Fait en sorte que le body prenne toute la largeur de la fenêtre du navigateur */
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    justify-content: center; /* Centre le contenu horizontalement */
-    align-items: center; /* Centre le contenu verticalement */
-}
+    justify-content: center;
+    align-items: center;
+} */
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Ajuste ceci en fonction du nombre de boutons par rangée que tu souhaites */
-    gap: 10px; /* Espacement entre les boutons */
-    width: 90vw; /* Ajuste cette valeur pour contrôler la largeur totale de ta grille */
-    height: 90vh; /* Ajuste cette valeur pour contrôler la hauteur totale de ta grille */
-    /* Pour que chaque bouton ait une taille flexible, ne définis pas de width/height fixes dans .square */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 90vw;
+    height: 90vh;
 }
 
 .square {
@@ -24,9 +23,5 @@ html, body {
     align-items: center;
     cursor: pointer;
     user-select: none;
-    font-size: 24px; /* Ajuste ceci selon la taille souhaitée des caractères */
-    /* Supprime width et height si tu veux que les boutons s'adaptent à la taille de la grille */
+    font-size: 24px;
 }
-
-
-

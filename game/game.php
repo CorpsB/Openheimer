@@ -3,12 +3,12 @@
 $modules = array(
     "1" => "../modules/button/button.php",
     "2" => "../modules/fillbar/fillb.php",
-    "3" => "../modules/interuptors/interruptor.php"
-    // "4" => "",
-    // "5" => "",
-    // "6" => "",
-    // "7" => "",
-    // "8" => ""
+    "3" => "../modules/interruptors/interruptors.php",
+    "4" => "../modules/button_picto/b_p.php",
+    "5" => "",
+    "6" => "",
+    "7" => "",
+    "8" => ""
 );
 
 $seed = $_GET["id"];
@@ -28,7 +28,6 @@ $seed = $_GET["id"];
     <script src="../js/game.js"></script>
     <title>Open-heimer</title>
 </head>
-
 <body>
     <div class="content">
         <div class="title">
@@ -42,11 +41,10 @@ $seed = $_GET["id"];
             <div class="one"><?php require_once($modules[substr($seed, 0, 1)]);?></div>
             <div class="two"><?php require_once($modules[substr($seed, 1, 1)]);?></div>
             <div class="three"><?php require_once($modules[substr($seed, 2, 1)]);?></div>
-            <div class="four"><?php // require_once($modules[substr($seed, 3, 1)]);?></div>
-            <div class="five"><?php // require_once($modules[substr($seed, 4, 1)]);?></div>
-            <div class="six"><?php // require_once($modules[substr($seed, 5, 1)]);?></div>
+            <div class="four"><?php require_once($modules[substr($seed, 3, 1)]);?></div>
+            <div class="five"><?php require_once($modules[substr($seed, 4, 1)]);?></div>
+            <div class="six"><?php require_once($modules[substr($seed, 5, 1)]);?></div>
         </div>
     </div>
 </body>
-
 </html>

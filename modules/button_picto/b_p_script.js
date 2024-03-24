@@ -3,10 +3,10 @@ const desiredSequence = ['𐩤', '𐩺', '𐩥', '𐩷', '𐩱', '𐩵'];
 
 function set_result(something) {
     if (something === true) {
-        console.log("YOUPI");
-        return true;
+        document.dispatchEvent(new CustomEvent('data_button_picto', {detail: "ok"}));
+        return true
     } else {
-        console.log("Oh nonnnnn ...");
+        document.dispatchEvent(new CustomEvent('data_button_picto', {detail: "fail"}));
         return false;
     }
 }
