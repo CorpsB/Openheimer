@@ -16,7 +16,7 @@ window.addEventListener("load", (event) => {
 
         --timer;
         if (timer <= 0) {
-            timer = duration; // TODO remplacer par la fin du jeu
+            document.location.href="../index.php";
         }
     }, 1000);
 });
