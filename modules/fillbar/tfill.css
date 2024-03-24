@@ -13,7 +13,7 @@
     transition: width 0.5s ease;
 }
 
-.t-btn {
+.btn {
     width: 180px;
     height: 180px;
     background-color: #ff7300;
@@ -28,7 +28,7 @@
     outline: none;
 }
 
-.t-btn-rect {
+.btn-rect {
     background-color: #129b00;
     color: white;
     border: none;
