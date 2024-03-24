@@ -14,7 +14,8 @@ window.addEventListener("load", (event) => {
 
         document.querySelector('#clock').textContent = minutes + ":" + seconds;
 
-        if (--timer <= 0) {
+        --timer;
+        if (timer <= 0) {
             timer = duration; // TODO remplacer par la fin du jeu
         }
     }, 1000);

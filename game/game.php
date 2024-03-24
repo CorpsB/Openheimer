@@ -1,8 +1,8 @@
 <?php
 
 $modules = array(
-    "1" => "../modules/cables/lignes.php",
-    "2" => "../modules/button/button.php",
+    "1" => "../modules/button/button.php",
+    "2" => "../modules/fillbar/fillb.php",
     // "2" => "",
     // "4" => "",
     // "5" => "",
@@ -17,6 +17,7 @@ $modules = array(
 
 $seed = $_GET["id"];
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,10 +25,10 @@ $seed = $_GET["id"];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="../js/game.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="../css/game.css">
     <script src="../js/timer.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../js/game.js"></script>
     <title>Open-heimer</title>
 </head>
 <body>
