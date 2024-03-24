@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #272537; /* #36393F */
+}
+
+.content {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+h1 {
+    display: inline;
+    margin: 0;
+}
+
+#return_to_home {
+    color: #FFFFFF;
+    font-size: 30px;
+    float: right;
+    padding-right: 70px;
+    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#return_to_home:hover {
+    color: #b8b8b8;
+}
+
+.bombe {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, 300px);
+    padding: 90px;
+
+}
+
+.one {
+    /* background-color: red */
+    margin: 0;
+    overflow: hidden;
+}
+
+.two {
+    /* background-color: red */
+    margin: 0;
+    overflow: hidden;
+}
+
+.three {
+    background-color: red;
+    margin: 0;
+    overflow: hidden;
+}
+
+.four {
+    background-color: red;
+    margin: 0;
+    overflow: hidden;
+}
+
+.five {
+    background-color: red;
+    margin: 0;
+    overflow: hidden;
+}
+
+.six {
+    background-color: red;
+    margin: 0;
+    overflow: hidden;
+}
+
+.picture_bombe {
+    background-image: url('../fond.png');
+    width: 1920px;
+    height: 850px;
+    background-size: 105% 130%;
+    background-position: center;
+}
