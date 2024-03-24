@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,16 +15,21 @@
 
 <body>
     <header class="header">
-        <h1>Open-Heimer</h1>
-        <h3>keep talking and everybody explodes</h3>
+        <div class="header-infos">
+            <img src="assets/openheimer_logo.png" alt="logo">
+            <div class="header-text">
+                <h1>Open-Heimer</h1>
+                <h3>keep talking and everybody explodes</h3>
+            </div>
+        </div>
     </header>
-    
+
     <div class="body">
         <div class="button-container">
             <a href="game/join.php">JOIN</a>
-            <a href="game/game.php">CREATE</a>
-            <script src="js/index.js"></script>
+            <a href="game/create.php">CREATE</a>
         </div>
     </div>
 </body>
+
 </html>
