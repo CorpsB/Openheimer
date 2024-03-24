@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const btn = document.querySelector('.t-btn');
     const randomChar = document.querySelector('.random-char');
     const btnRect = document.querySelector('.t-btn-rect');
-    const characters = "လူခပ်သိမ်ဂဈဏနထ";
+    const characters = "လခပသမဂဈဏနထ";
 
     function getRandomCharacter() {
         return characters.charAt(Math.floor(Math.random() * characters.length));
