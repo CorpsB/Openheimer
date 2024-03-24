@@ -1,5 +1,5 @@
 let userSequence = [];
-const desiredSequence = ['𐩤', '𐩺', '𐩥', '𐩷', '𐩱', '𐩵'];
+const desiredSequence = ['▥', '╘', '⌲', '⌸', '⌱', '▧'];
 
 function set_result(something) {
     if (something === true) {

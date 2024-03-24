@@ -10,7 +10,7 @@
 
 <body>
     <?php
-        $characters = ['𐩺', '𐩱', '𐩵', '𐩷', '𐩢', '𐩣', '𐩨', '𐩤', '𐩥'];
+        $characters = ['╢', '╘', '▧', '▥', '⏁', '⌲', '⌱', '⌸', '⋺'];
         echo '<div class="grid-container">';
         foreach ($characters as $index => $char) {
             echo "<button class=\"square\" data-char=\"{$char}\">{$char}</button>";
