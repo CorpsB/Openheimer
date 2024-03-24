@@ -1,0 +1,54 @@
+.progress-bar {
+    width: 1900px;
+    height: 200px;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #0062ff;
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 180px;
+    background-color: #ff7300;
+    font-size: 50px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    outline: none;
+  }
+
+  .btn-rect {
+    background-color: #129b00;
+    color: white;
+    border: none;
+    padding: 40px 60px; /* Réduire la taille du bouton */
+    font-size: 18px; /* Réduire la taille de la police */
+    border-radius: 5px;
+    position: absolute;
+    top: 50%; /* Ajuster la position verticale */
+    left: 60%; /* Ajuster la position horizontale */
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    outline: none;
+  }
+  
+.random-char {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%; /* Position verticale au centre */
+    left: 50%; /* Position horizontale au centre */
+    transform: translate(-50%, -50%); /* Déplacer l'élément de moitié de sa largeur et de sa hauteur pour le centrer */
+  }
+  
