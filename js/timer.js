@@ -1,5 +1,6 @@
-function Timer(duration, clock) {
-    let timer = duration;
+
+window.addEventListener("load", (event) => {
+    let timer = 120;
     let minutes;
     let seconds;
     setInterval(function () {
@@ -11,14 +12,10 @@ function Timer(duration, clock) {
         if (minutes < 10)
             minutes = "0" + minutes;
 
-        clock.textContent = minutes + ":" + seconds;
+        document.querySelector('#clock').textContent = minutes + ":" + seconds;
 
         if (--timer <= 0) {
             timer = duration; // TODO remplacer par la fin du jeu
         }
     }, 1000);
-}
-
-window.addEventListener("load", (event) => {
-    Timer(120, document.querySelector('#clock'));
 });

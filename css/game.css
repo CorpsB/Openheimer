@@ -86,3 +86,9 @@ h1 {
     background-size: 105% 130%;
     background-position: center;
 }
+
+.popup {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}

@@ -11,6 +11,9 @@ $modules = array(
     // "8" => ""
 );
 
+$seed = "214683";
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,17 +38,16 @@ $modules = array(
             <a href="../index.php" id="return_to_home"><i class="fas fa-home"></i></a>
         </div>
     </div>
+    <!-- <div class="popup win defeate">
+    </div> -->
     <div class="picture_bombe">
         <div class="bombe">
-            <div class="one">
-                <?php require_once($modules[1]);?>
-            </div>
-            <div class="two"></div>
-                <?php // require_once($modules[2]);?>
-            <div class="three"></div>
-            <div class="four"></div>
-            <div class="five"></div>
-            <div class="six"></div>
+            <div class="one"><?php require_once($modules[substr($seed, 0, 1)]);?></div>
+            <div class="two"><?php require_once($modules[substr($seed, 1, 1)]);?></div>
+            <div class="three"><?php // require_once($modules[substr($seed, 2, 1)]);?></div>
+            <div class="four"><?php // require_once($modules[substr($seed, 3, 1)]);?></div>
+            <div class="five"><?php // require_once($modules[substr($seed, 4, 1)]);?></div>
+            <div class="six"><?php // require_once($modules[substr($seed, 5, 1)]);?></div>
         </div>
     </div>
 </body>
