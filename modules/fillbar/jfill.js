@@ -20,6 +20,10 @@ document.addEventListener("DOMContentLoaded", function() {
         const expectedProgress = (charIndex + 1) * 10;
         const isCorrect = progress === expectedProgress;
         console.log(isCorrect);
+        if (isCorrect)
+            document.dispatchEvent(new CustomEvent('data_fillbar', {detail: "ok"}));
+        else
+            document.dispatchEvent(new CustomEvent('data_fillbar', {detail: "fail"}));
     });
 
     function fillProgressBar() {

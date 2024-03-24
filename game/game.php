@@ -5,14 +5,11 @@ $modules = array(
     "2" => "../modules/fillbar/fillb.php",
     "3" => "../modules/interruptors/interruptors.php",
     "4" => "../modules/button_picto/b_p.php",
-    "5" => "",
-    "6" => "",
-    "7" => "",
-    "8" => ""
+    "5" => "../modules/fusebox/fusebox.php",
+    "6" => "../modules/digicode/digicode.php"
 );
 
 $seed = $_GET["id"];
-
 
 ?>
 <!DOCTYPE html>

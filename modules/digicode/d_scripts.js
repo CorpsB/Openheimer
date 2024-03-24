@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function finish(something) {
     if (something === true) {
-        console.log("Succes");
+        document.dispatchEvent(new CustomEvent('data_digicode', {detail: "ok"}));
         return true;
     } else {
-        console.log("Echec");
+        document.dispatchEvent(new CustomEvent('data_digicode', {detail: "fail"}));
         return false;
     }
 }
