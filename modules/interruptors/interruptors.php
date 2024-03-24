@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="../modules/interruptors/i_style.css">
 </head>
 
-<p class="mytitle">Turtle</p>
 <div class="module-3-container">
+    <p class="mytitle">Turtle</p>
     <div class="i-button-container">
         <button class="i-btn" id="btn1">Pineapple</button>
         <button class="i-btn" id="btn2">Plank</button>

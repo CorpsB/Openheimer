@@ -11,4 +11,10 @@ $(document).ready(function() {
         if (data === "fail")
             document.location.href="../index.php";
     });
+    document.addEventListener('data_interruptors', function(event) {
+        var data = event.detail;
+        console.log("module interruptors : " + data);
+        if (data === "fail")
+            document.location.href="../index.php";
+    });
 });
