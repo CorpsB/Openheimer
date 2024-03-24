@@ -1,12 +1,13 @@
 <?php
 function getBombSeed()
 {
-    $numbers = "123456789AB";
+    // $numbers = "123456789AB";
+    $numbers = "12345678";
     $res = "";
     for ($i = 0; $i < 6; $i++) {
         $testnb = $numbers[rand(0, 7)];
         while (str_contains($res, $testnb)) {
-            $testnb = $numbers[rand(0, 10)];
+            $testnb = $numbers[rand(0, 7)];
         }
         $res .= $testnb;
     }
