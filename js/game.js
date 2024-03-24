@@ -51,4 +51,14 @@ $(document).ready(function() {
         if (score === 5)
             document.location.href="../game/victory.php";
     });
+    // document.addEventListener('data_fusebox', function(event) {
+    //     var data = event.detail;
+    //     console.log("module fillbar : " + data);
+    //     score++;
+    //     console.log("score: " + score);
+    //     if (data === "fail")
+    //         document.location.href="../index.php";
+    //     if (score === 6)
+    //         document.location.href="../game/victory.php";
+    // });
 });
