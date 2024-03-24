@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <div class="header-infos">
-            <img src="assets/openheimer_logo.png" alt="logo">
+            <a href="/"><img src="assets/openheimer_logo.png" alt="logo" href="/"></a>
             <div class="header-text">
                 <h1>Open-Heimer</h1>
                 <h3>keep talking and everybody explodes</h3>

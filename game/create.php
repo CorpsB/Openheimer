@@ -1,12 +1,12 @@
 <?php
 function getBombSeed()
 {
-    $numbers = "12345678";
+    $numbers = "123456789AB";
     $res = "";
     for ($i = 0; $i < 6; $i++) {
         $testnb = $numbers[rand(0, 7)];
         while (str_contains($res, $testnb)) {
-            $testnb = $numbers[rand(0, 7)];
+            $testnb = $numbers[rand(0, 10)];
         }
         $res .= $testnb;
     }
@@ -33,7 +33,7 @@ $_SESSION['BombSeed'] = $seed;
 <body>
     <header class="header">
         <div class="header-infos">
-            <img src="../assets/openheimer_logo.png" alt="logo">
+            <a href="/"><img src="../assets/openheimer_logo.png" alt="logo" href="/"></a>
             <div class="header-text">
                 <h1>Open-Heimer</h1>
                 <h3>keep talking and everybody explodes</h3>

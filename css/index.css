@@ -16,7 +16,8 @@ body {
 .header-infos {
     margin: auto;
     display: flex;
-    height: 100%;;
+    height: 100%;
+    justify-content: center;
 }
 
 .header-text {
@@ -26,6 +27,11 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+
+.header-infos a {
+    display: inline-block;
+    width: 100px;
 }
 
 .header-infos img {
@@ -51,7 +57,7 @@ body {
     flex-direction: column;
 }
 
-a {
+.button-container a {
     display: block;
     margin: 20px auto;
     padding: 20px 20px;
@@ -68,14 +74,14 @@ a {
     font-weight: 700;
 }
 
-a:hover {
+.button-container a:hover {
     background-color: #3e8e41;
 }
 
-button:hover {
+.button-container button:hover {
     background-color: #45a049;
 }
 
-button:active {
+.button-container button:active {
     background-color: #3e8e41;
 }
