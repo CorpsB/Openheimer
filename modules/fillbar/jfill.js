@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sélectionner les éléments après le chargement du DOM
     const progressBar = document.querySelector('.progress');
-    const btn = document.querySelector('.btn');
+    const btn = document.querySelector('.t-btn');
     const randomChar = document.querySelector('.random-char');
-    const btnRect = document.querySelector('.btn-rect');
+    const btnRect = document.querySelector('.t-btn-rect');
     const characters = "လူခပ်သိမ်";
 
     function getRandomCharacter() {
         return characters.charAt(Math.floor(Math.random() * characters.length));
     }
     randomChar.textContent = getRandomCharacter();
-    
+
     btn.addEventListener('click', function() {
         fillProgressBar();
     });
