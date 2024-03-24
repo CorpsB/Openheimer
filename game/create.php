@@ -15,9 +15,6 @@ function getBombSeed()
 }
 
 $seed = getBombSeed();
-$_SESSION['BombSeed'] = $seed;
-
-
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +41,7 @@ $_SESSION['BombSeed'] = $seed;
 
     <div class="body">
         <div class="text-container">
-            <h2 class="seed-nb">GAME SEED: <?php echo $_SESSION['BombSeed'] ?></h2>
+            <h2 class="seed-nb">GAME SEED: <?php echo $seed ?></h2>
             <a href="game.php?id=<?php echo $seed ?>" class="start-game">START GAME</a>
         </div>
     </div>
