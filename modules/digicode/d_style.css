@@ -1,11 +1,11 @@
-.grid-container {
+.digicode-container {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 10px;
     justify-content: center;
 }
 
-.square {
+.square-digicode {
     width: 85px;
     height: 85px;
     background-color: white;

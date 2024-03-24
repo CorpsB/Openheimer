@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const buttons = document.querySelectorAll('.square');
+    const buttons = document.querySelectorAll('.square-digicode');
     let count = 0;
     const correctButtons = [1, 3, 5, 7];
     let pressedButtons = [];

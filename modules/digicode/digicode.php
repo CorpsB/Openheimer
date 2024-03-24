@@ -9,10 +9,10 @@
 </head>
 
 <body>
-    <div class="grid-container">
+    <div class="digicode-container">
         <?php
             for ($i = 0; $i < 9; $i++) {
-                echo "<button class=\"square\"></button>";
+                echo "<button class=\"square-digicode\"></button>";
             }
         ?>
     </div>
