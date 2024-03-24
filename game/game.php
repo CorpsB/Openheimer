@@ -18,13 +18,16 @@ $seed = $_GET["id"];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="../css/game.css">
     <script src="../js/timer.js"></script>
     <script src="../js/game.js"></script>
+    <link rel="icon" href="../assets/favico.ico">
     <title>Open-heimer</title>
 </head>
+
 <body>
     <div class="content">
         <div class="title">
@@ -35,13 +38,14 @@ $seed = $_GET["id"];
     </div>
     <div class="picture_bombe">
         <div class="bombe">
-            <div class="one"><?php require_once($modules[substr($seed, 0, 1)]);?></div>
-            <div class="two"><?php require_once($modules[substr($seed, 1, 1)]);?></div>
-            <div class="three"><?php require_once($modules[substr($seed, 2, 1)]);?></div>
-            <div class="four"><?php require_once($modules[substr($seed, 3, 1)]);?></div>
-            <div class="five"><?php require_once($modules[substr($seed, 4, 1)]);?></div>
-            <div class="six"><?php require_once($modules[substr($seed, 5, 1)]);?></div>
+            <div class="one"><?php require_once($modules[substr($seed, 0, 1)]); ?></div>
+            <div class="two"><?php require_once($modules[substr($seed, 1, 1)]); ?></div>
+            <div class="three"><?php require_once($modules[substr($seed, 2, 1)]); ?></div>
+            <div class="four"><?php require_once($modules[substr($seed, 3, 1)]); ?></div>
+            <div class="five"><?php require_once($modules[substr($seed, 4, 1)]); ?></div>
+            <div class="six"><?php require_once($modules[substr($seed, 5, 1)]); ?></div>
         </div>
     </div>
 </body>
+
 </html>

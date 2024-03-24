@@ -5,9 +5,9 @@ function getBombSeed()
     $numbers = "12345678";
     $res = "";
     for ($i = 0; $i < 6; $i++) {
-        $testnb = $numbers[rand(0, 7)];
+        $testnb = $numbers[rand(0, 5)];
         while (str_contains($res, $testnb)) {
-            $testnb = $numbers[rand(0, 7)];
+            $testnb = $numbers[rand(0, 5)];
         }
         $res .= $testnb;
     }
@@ -25,6 +25,7 @@ $seed = getBombSeed();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="../css/create.css">
+    <link rel="icon" href="../assets/favico.ico">
     <title>Open-Heimer | create game</title>
 </head>
 

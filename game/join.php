@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="../css/join.css">
+    <link rel="icon" href="../assets/favico.ico">
     <title>Open-Heimer | join game</title>
 </head>
 
@@ -22,9 +23,9 @@
 
     <div class="body">
         <div class="container">
-            <form action="doc.php" method="POST"> <!-- Changed method to POST -->
-                <label for="idInput">Enter ID:</label>
-                <input type="text" id="idInput" name="id" required>
+            <form action="doc.php" method="GET">
+                <label for="seedInput">Enter ID:</label>
+                <input type="text" seed="idInput" name="seed" required>
                 <button type="submit">Join</button>
             </form>
         </div>

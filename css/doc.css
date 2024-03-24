@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+}
+
+.content {
+    background-color: #4f5055;
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.doc-header {
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto 0;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.fa-home {
+    color: #FFFFFF;
+    scale: 2;
+}
+
+.title {
+    margin: 0;
+}
+
+.doc-body {
+    width: 50%;
+    margin: auto;
+    border-top: 0;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.module-doc {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+.doc-h1 {
+    margin-left: 10px;
+}
+
+.doc-h2 {
+    display: block;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.doc-last-elem {
+    height: 50vh;
+}
+
+.doc-h3, .doc-h4 {
+    display: inline;
+}
+
+.doc-h3 {
+    padding: 20px 0;
+}
+
+.doc-h4 {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.doc-div-h {
+    margin: 20px 0;
+}
